@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Signika+Negative:wght@300..700&family=Snippet&display=swap');
+/* Home */
+
+:root{
+    --cor-primaria: #FFFBF5;
+    --cor-segundaria: #96B6C5;
+    --cor-terciaria: #DCFFB7;
+    --cor-quartenaria: #FFC95F;
+    --cor-quintaria: #191919;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    background-color: var(--cor-segundaria);
+    padding: 1px;
+}
+
+.cabecalho__conteudo {
+    display: flex;
+    justify-content: space-around;
+    margin: 2%;
+}
+
+.links__cabecalho {
+    text-decoration: none;
+    font-family: "Dangrek", sans-serif;
+    font-size: 24px;
+    color: var(--cor-quintaria) ;
+}
+
+
+.container__principal {
+    background-color: var(--cor-terciaria);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5%;
+    font-size: 24px;
+    color: var(--cor-quintaria);
+    font-family: "Snippet", sans-serif
+}
+
+.paragrafo__secundario{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.container__secundario {
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+
+}
+
+.container__secundario__esquerdo {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    gap: 12px;
+    color: var(--cor-quintaria);
+    font-size: 22px;
+    font-family: "Snippet", sans-serif
+}
+
+.paragrafo__secundario {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--cor-quintaria);
+    font-family: "Snippet", sans-serif
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-segundaria);
+    padding: 1%;
+    gap: 10px;
+    font-family: "Dangrek", sans-serif;
+    font-size: 24px;
+    color: var(--cor-quintaria);
+}
+
+.paragrafo__rodape{
+    text-decoration: underline;
+}
+
+/* Sobre */
+
+.bloco__secundario__sobre{
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 1.7;
+    padding: 120px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-primaria);
+    text-align: center;
+    color: var(--cor-quintaria);
+    font-size: 24px;
+    font-family: "Snippet", sans-serif
+}
+
+/* Produtos */
+
+.bloco__principal__plantas{
+    display: flex;
+    justify-content: center;
+}
+
+.img__plantas{
+    gap: 40px;
+    padding: 40px;
+    margin: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.img__produtos{
+    width: 180px;
+    height: 180px;
+}
+
+figcaption{
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 2.3;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Snippet", sans-serif
+}
+
+/* Contato */
+
+.bloco__principal__contato{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+.bloco__pricipal__esquerdo{
+    margin: 5%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lista__enderecos{
+    font-size: 22px;
+    font-weight: 500;
+    color: #141E46;
+    font-family: "Snippet", sans-serif
+}
+
+.estilo__email{
+    color: #40A2E3;
+}
+
+.paragrafo__redes__sociais{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: #141E46;
+    font-family: "Snippet", sans-serif
+}
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.links__pai{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+.links__redes__sociais{
+    display: flex;
+    justify-content: center;
+    border: solid #1A4D2E;
+    border-radius: 10px;
+    padding: 8px;
+    width: 60%;
+    font-size: 24px;
+    color: #191919;
+    font-family: "Signika Negative", sans-serif;
+}
+
+.links__redes__sociais:hover{
+    background-color: var(--cor-segundaria);
+}
+
+.imagem__logo{
+   margin-right: 6px;
+   width: 25px;
+}
